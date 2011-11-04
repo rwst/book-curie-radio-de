@@ -10,7 +10,7 @@ epub:
 	$(PANDOC) -f markdown curie.md --toc --epub-metadata=dc.xml --epub-cover-image=title.png --bibliography curie.bib --csl=curie.csl -o curie.epub
 	
 txt:
-	$(PANDOC) -f markdown curie.md --bibliography curie.bib --csl=curie.csl -o curie.txt
+	$(PANDOC) -f markdown -t plain -s curie.md --bibliography curie.bib --csl=curie.csl -o curie.txt
 
 curie.md:
 	$(PANDOC) -f latex curie.tex -t markdown -o curie.md
@@ -20,3 +20,8 @@ math:
 
 cv:
 	sed -f convert.sed <curie.tex >curie.txt
+
+zip:
+	rm -f curie.zip
+	zip -r curie curie.txt curie.html images page-images
+
