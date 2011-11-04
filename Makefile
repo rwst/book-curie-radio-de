@@ -10,7 +10,8 @@ epub:
 	$(PANDOC) -f markdown curie.md --toc --epub-metadata=dc.xml --epub-cover-image=title.png --bibliography curie.bib --csl=curie.csl -o curie.epub
 	
 txt:
-	$(PANDOC) -f markdown -t plain -s curie.md --bibliography curie.bib --csl=curie.csl -o curie.txt
+	$(PANDOC) -f markdown -t plain -s curie.md --bibliography curie.bib --csl=curie.csl -o t.txt
+	sed -f txtconv.sed <t.txt >curie.txt
 
 curie.md:
 	$(PANDOC) -f latex curie.tex -t markdown -o curie.md
