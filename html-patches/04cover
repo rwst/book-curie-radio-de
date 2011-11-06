@@ -1,0 +1,14 @@
+--- curie.html~	2011-11-06 10:01:19.000000000 +0100
++++ curie.html	2011-11-06 10:08:30.000000000 +0100
+@@ -20,6 +20,11 @@
+ <h4 class="date">Friedrich Vieweg und Sohn</h4>
+ </div>
+ </center>
++<center>
++<div class="figure">
++<img src="images/cover.png" width="50%" alt="Cover" /><p class="caption"></p>
++</div>
++</center>
+ <div id="TOC">
+ <ul>
+ <li><a href="#einleitung.">Einleitung.</a></li>
