@@ -2173,7 +2173,7 @@ Ebene treffen. Wenn $h$ die Entfernung dieser Ebene vom Kondensator,
 d.&nbsp;h. von der Grenze des Feldes ist, so erhält man durch
 eine einfache Rechnung:
 
-![](images/math01.png)
+![delta = (e.F.l. (l/2 + h))/(m.v.v)](images/math01.png)&nbsp;
 
 wobei $m$ die Masse des bewegten Teilchens, $e$ seine Ladung,
 $v$ seine Geschwindigkeit und&nbsp;$F$ die Feldstärke bedeutet.
@@ -4091,7 +4091,7 @@ dann aus dem Gefäß herausgenommen wird, entaktivirt sich an
 freier Luft nach einem Exponentialgesetz, das für alle Körper
 dasselbe und durch folgende Formel darstellbar ist[@cpdj1903cr1]:
 
-![](images/math02.png)
+![I = I0.[a.e^(-t/theta1) - (a-1).e^(-t/theta2)]](images/math02.png)&nbsp;
 
 Hierbei ist $I_0$ die Anfangsintensität der Strahlung im Moment,
 wo man die Platte aus dem Gefäß herausnimmt, $I$ die Intensität
