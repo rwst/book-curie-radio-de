@@ -1,0 +1,15 @@
+--- curie.txt-	2011-11-06 09:24:08.000000000 +0100
++++ curie.txt	2011-11-04 10:07:51.000000000 +0100
+@@ -5690,3 +5690,12 @@
+     Ermittelung nicht möglich gewesen. Die hier, sowie im Text des
+     Buches benutzten Abkürzungen für die Namen der Zeitschriften
+     entsprechen den in den "Fortschritten der Physik" gebräuchlichen.
++
++Anmerkungen zur Transkription
++-----------------------------
++
++Die Transkription fußt größtenteils auf einem Exemplar des Buchs, das von den University of Michigan Libraries zum Scan bereitgestellt wurde. Dessen Scan besorgte Google Books. Aufgrund der suboptimalen Qualität weniger Seiten wurde das vom Hathi Trust eingescannte Exemplar zusätzlich herangezogen. Wir verwendeten Tesseract und ABBYY Mac für die OCR. Pandoc konvertierte nach plain text und HTML.
++
++Die Rechtschreibung wurde belassen, kleinere Fehler ausgebessert. Das Tabellenformat musste an markdown angepasst werden. Die Einzelnachweise wurden nachrecherchiert und, wo vorhanden, mit URL versehen und als bibtex-Datenbank verarbeitet.
++
++Der markdown-Quelltext, die bibtex-Datenbank und alle anderen Hilfsdateien einschließlich der ursprünglichen Seitenbilder befinden sich auf github.com/rwst/book-curie-radio-de. Dort können Fehler gemeldet und gepatcht werden. R.S.
