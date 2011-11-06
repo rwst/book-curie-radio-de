@@ -1,0 +1,10 @@
+--- curie.html~	2011-11-04 09:25:38.000000000 +0100
++++ curie.html	2011-11-05 18:38:09.000000000 +0100
+@@ -2,6 +2,7 @@
+ <html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
++	<meta http-equiv="Content-Style-Type" content="text/css" />
+   <meta name="generator" content="pandoc" />
+   <meta name="author" content="Marie Curie" />
+   <meta name="date" content="1904" />
