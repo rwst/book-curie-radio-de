@@ -1,0 +1,20 @@
+--- curie.html~	2011-11-06 09:35:29.000000000 +0100
++++ curie.html	2011-11-06 10:01:19.000000000 +0100
+@@ -9,11 +9,17 @@
+   <title>Untersuchungen über die radioaktiven Substanzen</title>
+ </head>
+ <body>
++<center>
+ <div id="header">
+ <h1 class="title">Untersuchungen über die radioaktiven Substanzen</h1>
+ <h3 class="author">Marie Curie</h3>
++<h3 class="author">(übersetzt von W. Kaufmann)</h3>
++<h4 class="date">Dritte unveränderte Auflage</h4>
+ <h4 class="date">1904</h4>
++<h4 class="date">Braunschweig</h4>
++<h4 class="date">Friedrich Vieweg und Sohn</h4>
+ </div>
++</center>
+ <div id="TOC">
+ <ul>
+ <li><a href="#einleitung.">Einleitung.</a></li>
