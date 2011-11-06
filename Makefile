@@ -26,5 +26,5 @@ cv:
 
 zip:
 	rm -f curie.zip
-	zip -r curie curie.txt curie.html images page-images
+	zip -r curie curie.txt curie.html images
 
