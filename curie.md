@@ -4249,7 +4249,7 @@ diese Tatsache erklären, indem man annimmt, daß die radioaktive
 Energie in der Flüssigkeit in derselben Form angehäuft ist wie
 im Gase (als Emanation).
 
-Eine Lösung Radium—haltigen Salzes verhält sich zum Teil
+Eine Lösung Radium-haltigen Salzes verhält sich zum Teil
 ähnlich. Vor allem ist es bemerkenswert, daß eine Lösung von
 Radiumsalz, die sich seit einiger Zeit in einem geschlossenen
 Raume befindet, nicht stärker aktiv ist als reines Wasser, das
