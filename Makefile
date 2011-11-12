@@ -8,7 +8,7 @@ html:
 	for i in html-patches/* ; do patch -p0 <$$i ; done
 
 epub:
-	$(PANDOC) -f markdown curie.md --toc --epub-metadata=dc.xml --epub-cover-image=title.png --bibliography curie.bib --csl=curie.csl -o curie.epub
+	$(PANDOC) -f markdown curie.md --toc --epub-metadata=dc.xml --epub-cover-image=images/cover.png --bibliography curie.bib --csl=curie.csl -o curie.epub
 	
 txt:
 	$(PANDOC) -f markdown -t plain -s curie.md --bibliography curie.bib --csl=curie.csl -o t.txt
